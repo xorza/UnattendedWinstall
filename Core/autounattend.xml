@@ -670,7 +670,6 @@ foreach( $file in $Document.unattend.Extensions.File ) {
   'Microsoft.MixedReality.Portal';
   'Microsoft.Windows.Ai.Copilot.Provider';
   'Microsoft.WindowsMeetNow';
-  'Microsoft.WindowsStore';
 ) | Remove-AppxProvisionedPackage -AllUsers -Online
 
 Get-WindowsCapability -Online |
