@@ -1627,7 +1627,7 @@ $appxPackages = @(
     'Microsoft.XboxSpeechToTextOverlay', 'Microsoft.GamingApp', 'Microsoft.YourPhone', 'Microsoft.OneDrive',
     'Microsoft.549981C3F5F10', 'Microsoft.MixedReality.Portal', 'Microsoft.ScreenSketch'
     'Microsoft.Windows.Ai.Copilot.Provider', 'Microsoft.Copilot', 'Microsoft.Copilot_8wekyb3d8bbwe',
-    'Microsoft.WindowsMeetNow', 'Microsoft.WindowsStore', 'Microsoft.Paint', 'Microsoft.MSPaint'
+    'Microsoft.WindowsMeetNow', 'Microsoft.Paint', 'Microsoft.MSPaint'
 )
 
 # Define Windows Capabilities
@@ -3138,7 +3138,7 @@ Windows Registry Editor Version 5.00
 "Start_Layout"=-
 "Start_AccountNotifications"=-
 "Start_TrackDocs"=-
-"TaskbarAl"=-
+; "TaskbarAl"=-
 "TaskbarMn"=-
 "ShowTaskViewButton"=-
 "ShowCopilotButton"=-
@@ -4086,7 +4086,7 @@ Windows Registry Editor Version 5.00
 "Start_Layout"=dword:00000001
 "Start_AccountNotifications"=dword:00000000
 "Start_TrackDocs"=dword:00000000 
-"TaskbarAl"=dword:00000000
+"TaskbarAl"=dword:00000001
 "TaskbarMn"=dword:00000000
 "ShowTaskViewButton"=dword:00000000
 "ShowCopilotButton"=dword:00000000
@@ -4416,8 +4416,8 @@ Windows Registry Editor Version 5.00
 "System.IsPinnedToNameSpaceTree"=dword:00000000
 
 ; restore the classic context menu
-[HKEY_CURRENT_USER\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32]
-@=""
+; [HKEY_CURRENT_USER\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32]
+; @=""
 
 ; removes OneDrive Setup
 [-HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
